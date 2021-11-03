@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-    <title>simple template</title>
+    <title>simple template 3</title>
   </head>
   <body>
     <header>
@@ -29,20 +29,22 @@
           <li>
             <a id="More" href="#More">More</a>
             <div class="mega_menu">
-              <img src="IMG/mega-menu.svg">
+              <div class="megaimg">
+                <img src="IMG/mega-menu.svg">
+              </div>
               <ul>
-                <li><a href=""><i class="fas fa-comments"></i>Testmonials</a></li>
-                <li><a href=""><i class="fas fa-users"></i>Team member</a></li>
-                <li><a href=""><i class="fab fa-servicestack"></i>Services</a></li>
-                <li><a href=""><i class="fas fa-crosshairs"></i>Our Skills</a></li>
-                <li><a href=""><i class="far fa-list-alt"></i>How it works</a></li>
+                <li><a href="#Testmonials"><i class="fas fa-comments"></i>Testmonials</a></li>
+                <li><a href="#team_member"><i class="fas fa-users"></i>Team member</a></li>
+                <li><a href="#Services"><i class="fab fa-servicestack"></i>Services</a></li>
+                <li><a href="#our_skills"><i class="fas fa-crosshairs"></i>Our Skills</a></li>
+                <li><a href="#how_it_works"><i class="far fa-list-alt"></i>How it works</a></li>
               </ul>
               <ul>
-                <li><a href=""><i class="fas fa-calendar-alt"></i>Events</a></li>
-                <li><a href=""><i class="fas fa-coins"></i>Priceing plans</a></li>
-                <li><a href=""><i class="fas fa-video"></i>Top Videos</a></li>
-                <li><a href=""><i class="fas fa-signal"></i>Stats</a></li>
-                <li><a href=""><i class="fas fa-tags"></i>Request A Discount</a></li>
+                <li><a href="#latest_events"><i class="fas fa-calendar-alt"></i>Events</a></li>
+                <li><a href="#Pricing"><i class="fas fa-coins"></i>Pricing plans</a></li>
+                <li><a href="#top_videos"><i class="fas fa-video"></i>Top Videos</a></li>
+                <li><a href="#status"><i class="fas fa-signal"></i>Stats</a></li>
+                <li><a href="#discount"><i class="fas fa-tags"></i>Request A Discount</a></li>
               </ul>
             </div>
           </li>
@@ -231,7 +233,7 @@
     </div>
     <!-- End Features -->
     <!-- Start testmonials -->
-    <div class="testimonials" id="testimonials">
+    <div class="testimonials" id="Testmonials">
       <div class="header-title">
         <h1>Testmonials</h1>
         </div>
@@ -253,7 +255,7 @@
           <div class="box-monials">
             <div><img src="IMG/Avatar01r.png" alt=""></div>
             <h2 class="title">Ahmed Shehata</h2>
-            <h4 class="carier">Full Stack Developer</h4>
+            <h4 class="carier">Frontend Web Developer</h4>
             <div class="rate">
               <i class="filled fas fa-star"></i>
               <i class="filled fas fa-star"></i>
@@ -263,7 +265,7 @@
             </div>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam sit voluptatibus corrupti exercitationem ducimus? Assumenda, quia.</p>
           </div>
-          
+
           <div class="box-monials">
             <div><img src="IMG/avatar05.png" alt=""></div>
             <h2 class="title">SomeBody</h2>
@@ -342,7 +344,7 @@
             <h2>Somebody</h2>
             <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h4>
           </div>
-        
+
         </div>
         <div class="member-box">
           <div class="img_icon">
@@ -428,48 +430,48 @@
     </div>
     <!-- End team member -->
     <!-- start services -->
-    <div class="services">
+    <div class="services" id="Services">
       <div class="header-title">
         <h1>Services</h1>
         </div>
       <div class="container">
         <div class="serv-box">
-          <i class="fas fa-user-shield"></i>
+          <i class="fas fa-user-shield serv_ico"></i>
           <h2>Security</h2>
           <div class="info">
             <a href="#">Details</a>
           </div>
         </div>
         <div class="serv-box">
-          <i class="fas fa-terminal"></i>
+          <i class="fas fa-terminal serv_ico"></i>
           <h2>Coding & Develop</h2>
           <div class="info">
             <a href="#">Details</a>
           </div>
         </div>
         <div class="serv-box">
-          <i class="fas fa-life-ring"></i>
+          <i class="fas fa-life-ring serv_ico"></i>
           <h2>Stronger</h2>
           <div class="info">
             <a href="#">Details</a>
           </div>
         </div>
         <div class="serv-box">
-          <i class="fas fa-anchor"></i>
+          <i class="fas fa-anchor serv_ico"></i>
           <h2>Safety</h2>
           <div class="info">
             <a href="#">Details</a>
           </div>
         </div>
         <div class="serv-box">
-          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-check-circle serv_ico"></i>
           <h2>Fixing issues</h2>
           <div class="info">
             <a href="#">Details</a>
           </div>
         </div>
         <div class="serv-box">
-          <i class="fas fa-bolt"></i>
+          <i class="fas fa-bolt serv_ico"></i>
           <h2>Faster</h2>
           <div class="info">
             <a href="#">Details</a>
@@ -478,6 +480,224 @@
       </div>
     </div>
     <!-- End services -->
+    <!-- Start Skills -->
+    <div class="section-skills" id="our_skills">
+      <div class="header-title">
+        <h1>Our Skills</h1>
+        </div>
+      <div class="container">
+        <img src="IMG/skills.svg" alt="">
+          <div class="skills_box">
+            <h3>HTML & CSS<span>65%</span></h3>
+            <div class="progress_bar">
+              <span style="width: 65%;"></span>
+            </div>
+
+            <h3>Java Script <span>50%</span></h3>
+            <div class="progress_bar">
+              <span style="width: 50%;"></span>
+            </div>
+            <h3>Reacr JS <span>Not yet</span></h3>
+            <div class="progress_bar">
+              <span style="width: 10%;"></span>
+            </div>
+          <h3>angular<span>Not yet</span></h3>
+          <div class="progress_bar">
+            <span style="width: 10%;"></span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+    <!-- How it -->
+    <div class="how_works" id="how_it_works">
+      <div class="header-title">
+        <h1>How It Works</h1>
+        </div>
+      <div class="container">
+        <img class="main_sec_pic" src="img/How-It_works.svg" alt="">
+        <div class="detal_boxs">
+          <div class="box1">
+            <img src="img/how03.png" alt="">
+            <div class="information">
+              <h2>Knowlage</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ex harum voluptatibus similique. Laborum, quidem dolores.</p>
+            </div>
+          </div>
+          <div class="box1">
+            <img src="img/how2.png" alt="">
+            <div class="information">
+              <h2>Development</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ex harum voluptatibus similique. Laborum, quidem dolores.</p>
+            </div>
+          </div>
+          <div class="box1">
+            <img src="img/how01.png" alt="">
+            <div class="information">
+              <h2>Art</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ex harum voluptatibus similique. Laborum, quidem dolores.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End How it -->
+    <!-- Latest Events  -->
+    <div class="latest_events" id="latest_events">
+      <div class="header-title">
+        <h1>Latest Events</h1>
+        </div>
+      <div class="container">
+        <img src="img/event.svg" alt="">
+        <div class="content_Two">
+          <div class="Time">
+            <div class="unit">
+              <span>30</span>
+              <span>days</span>
+            </div>
+            <div class="unit">
+              <span>60</span>
+              <span>Hours</span>
+            </div>
+            <div class="unit">
+              <span>59</span>
+              <span>Minuties</span>
+            </div>
+            <div class="unit">
+              <span>30</span>
+              <span>Seconds</span>
+            </div>
+          </div>
+          <div class="title">
+            <h2>Tech Masters Event 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eveniet fuga distinctio magnam tempora facilis possimus!</p>
+          </div>
+        </div>
+        <div class="content_there">
+          <form action="">
+            <input type="email" placeholder="Enter Your Email">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Latest Events  -->
+    <!-- Start Priceing -->
+    <div class="Pricing" id="Pricing">
+      <div class="header-title">
+        <h1>Price Plans</h1>
+        </div>
+      <div class="container">
+        <div class="plan">
+          <div class="half-top">
+            <h1>Basic</h1>
+            <i class="far fa-hdd"></i>
+            <h2 class="price">$20</h2>
+            <p>Per Month</p>
+            
+          </div>
+          <div class="half-bottom">
+            <h4>25GB HDD Space</h4>
+            <h4>3 Email Addresses</h4>
+            <h4>2 Subdomains</h4>
+            <h4>2 Databases</h4>
+            <h4>Basic Support</h4>
+            <h5>limited Internet bandwidth</h5>
+            <h5>Full Admin Control</h5>
+            <h5>Backup You important Things</h5>
+          </div>
+          <a class="price-order" href="#">Choose Plan</a>
+        </div>
+        <div class="plan">
+          <span class="pouplar"><h3>Most Popular</h3></span>
+          <div class="half-top">
+            <h1>Advanced</h1>
+            <i class="fas fa-sitemap"></i>
+            <h2 class="price">$45</h2>
+            <p>Per Month</p>
+          </div>
+          <div class="half-bottom">
+            <h4>500GB HDD Space</h4>
+            <h4>15 Email Addresses</h4>
+            <h4>6 Subdomains</h4>
+            <h4>8 Databases</h4>
+            <h4>Basic Support</h4>
+            <h4>500GB bandwidth</h4>
+            <h5>Bartial Admin control</h5>
+          </div>
+          <a class="price-order" href="#">Choose Plan</a>
+        </div>
+        <div class="plan">
+          <div class="half-top">
+            <h1>Professional</h1>
+            <i class="fas fa-crown"></i>
+            <h2 class="price">$100</h2>
+            <p>Per Month</p>
+          </div>
+          <div class="half-bottom">
+            <h4>1TB SDD Space</h4>
+            <h4>8 Email Addresses</h4>
+            <h4>12 Subdomains</h4>
+            <h4>12 Databases</h4>
+            <h4>Basic Support</h4>
+            <h4>Unlimited Internet bandwidth</h4>
+            <h4>Full Admin Control</h4>
+            <h4>Backup You important Things</h4>
+          </div>
+          <a class="price-order" href="#">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+    <!-- End Priceing -->
+    <!-- Top Videos -->
+    <div class="top_videos" id="top_videos">
+      <div class="header-title">
+        <h1>Top Videos</h1>
+        </div>
+          <div class="container">
+            <div class="video_list">
+              <div class="main-title">
+                <h2>Top Videos</h2>
+                  <i class="fas fa-random"></i>
+                    </div>
+              <div class="v_boxs">
+                <h3>How To Create Sub Domain</h3>
+                <p>05:18</p>
+              </div>
+              <div class="v_boxs">
+                <h3>Set The DNS setting</h3>
+                <p>04:28</p>
+              </div>
+              <div class="v_boxs">
+                <h3>How To Buy Domain</h3>
+                <p>07:06</p>
+              </div>
+              <div class="v_boxs">
+                <h3>How To Monitor Your Website</h3>
+                <p>03:08</p>
+              </div>
+              <div class="v_boxs">
+                <h3>How TO calling Service Center</h3>
+                <p>02:00</p>
+              </div>
+              <div class="v_boxs">
+                <h3>Everything About Domains</h3>
+                <p>09:51</p>
+              </div>
+              <div class="v_boxs">
+                <h3>playing with The Dns</h3>
+                <p>05:18</p>
+              </div>
+            </div>
+            <div class="vid_preview">
+              <div class="vid"><img src="/IMG/top-videos.jpg" alt=""></div>
+              <div class="title2"><h2>Everything About Domains</h2></div>
+            </div>
+
+          </div>
+    </div>
+    <!-- End Top Videos -->
     <script src="/js/main.js"></script>
   </body>
 </html>
