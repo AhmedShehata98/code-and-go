@@ -1224,7 +1224,9 @@ header .main-nav > li:last-child:hover .mega_menu{
   .latest_events .container .content_there form{
     flex-direction: column;
   }
-
+  .latest_events .container .content_there{
+    padding:35px 0;
+  }
 }
 .latest_events .container .content_there form input[type="email"]{
       padding: 15px;
