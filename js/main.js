@@ -1,26 +1,10 @@
-const li_more = document.getElementById('More');
-const sub_links =document.getElementById('sub-links')
-li_more.addEventListener('click',()=>{
-    sub_links.style.display="flex"
-})
+const section_skills = document.querySelector('.section-skills');
+const progress = document.querySelectorAll('.progress_bar span')
 
-window.onkeyup=()=>{
-    console.log(this);
-}
-//go up
-const up= document.getElementById('go-up')
 window.addEventListener('scroll',()=>{
-    if(window.scrollY >=1900 ){
-        up.style.display="block"
-    }else{
-        up.style.display="none"
+    if( window.scrollY >= section_skills.offsetTop ){
+        progress.forEach((ele)=>{
+            ele.style.width=ele.dataset.width;
+        })
     }
-})
-
-up.addEventListener('click',()=>{
-    window.scrollTo({
-        top:0,
-        left:0,
-        behavior:"smooth",
-    })
 })
